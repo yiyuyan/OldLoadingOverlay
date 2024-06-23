@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "olo",
+  "version": "${version}",
+  "name": "OldLoadingOverlay",
+  "description": "",
+  "authors": [
+    "KSmc_brigade"
+  ],
+  "contact": {
+    "repo": "https://github.com/yiyuyan/OldLoadingOverlay"
+  },
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+  },
+  "mixins": [
+    "olo.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
